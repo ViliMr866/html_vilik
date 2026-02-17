@@ -1,1 +1,1 @@
-Ahoj, jak se máš?
+No nazdar.
