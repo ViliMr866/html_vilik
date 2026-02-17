@@ -1,1 +1,1 @@
-Web o sérii Hunger games
+Web o sérii Hunger Games
