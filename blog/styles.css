@@ -12,3 +12,6 @@ a {
 a:hover {
   background-color: #c30707;
 }
+body {
+  background-color: aqua;
+}
