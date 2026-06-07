@@ -11,146 +11,145 @@
 menu
 </span></a>
 <h2>print ( )</h2>
-<p>Co je příkaz print()
-
+<p><b>Co je příkaz print()</b><br>
+<br>
 Příkaz print() patří mezi úplně nejzákladnější a nejpoužívanější funkce v programovacím jazyce Python. Prakticky každý začátečník se s ním setká hned při svém prvním programu. Nejčastěji bývá prvním příkladem známý text „Hello World“, který se právě pomocí print() vypisuje na obrazovku.
 
 Hlavním úkolem této funkce je zobrazování informací uživateli. Program totiž často potřebuje něco oznámit, vypsat výsledek výpočtu, zobrazit chybu nebo komunikovat s člověkem, který program používá. Bez funkce print() by program běžel „potichu“ a uživatel by neviděl, co se vlastně děje.
 
-Funkce print() je vestavěná přímo v Pythonu, takže ji není potřeba nijak instalovat ani importovat. Stačí ji jednoduše napsat do programu a vložit do závorek hodnotu, kterou chceme zobrazit.
+Funkce print() je vestavěná přímo v Pythonu, takže ji není potřeba nijak instalovat ani importovat. Stačí ji jednoduše napsat do programu a vložit do závorek hodnotu, kterou chceme zobrazit.<br>
+<br>
+<b>Základní použití</b><br>
+<br>
+Nejjednodušší použití vypadá takto:<br>
 
-Základní použití
+print("Ahoj světe")<br>
+<br>
+Po spuštění programu se vypíše text:<br>
 
-Nejjednodušší použití vypadá takto:
+Ahoj světe<br>
+<br>
+Text musí být uzavřen v uvozovkách. Python tak pozná, že jde o textový řetězec. Pokud bychom uvozovky nenapsali, program by si myslel, že jde například o název proměnné, a většinou by vyhodil chybu.<br>
+<br>
+<b>Výpis čísel</b><br>
+<br>
+Pomocí print() lze vypisovat i čísla:<br>
 
-print("Ahoj světe")
+print(10)<br>
+print(3.14)<br>
+<br>
+Výstup:<br>
 
-Po spuštění programu se vypíše text:
+10<br>
+3.14<br>
+<br>
+Python dokáže pracovat jak s celými čísly, tak s desetinnými čísly.<br>
+<br>
+<b>Výpis proměnných</b><br>
+<br>
+Velmi často se print() používá společně s proměnnými.<br>
+<br>
+jmeno = "Petr"<br>
 
-Ahoj světe
+print(jmeno)<br>
+<br>
+Výstup:<br>
 
-Text musí být uzavřen v uvozovkách. Python tak pozná, že jde o textový řetězec. Pokud bychom uvozovky nenapsali, program by si myslel, že jde například o název proměnné, a většinou by vyhodil chybu.
+Petr<br>
+<br>
+Proměnná slouží jako „krabička“ pro ukládání dat. Funkce print() potom její obsah zobrazí.<br>
+<br>
+<b>Spojování textu</b><br>
+<br>
+Pomocí print() lze spojovat texty dohromady.<br>
 
-Výpis čísel
+jmeno = "Anna"<br>
 
-Pomocí print() lze vypisovat i čísla:
+print("Ahoj " + jmeno)<br>
+<br>
+Výstup:<br>
 
-print(10)
-print(3.14)
+Ahoj Anna<br>
+<br>
+Znak + zde slouží ke spojování textových řetězců.<br>
+<br>
+<b>Více hodnot najednou</b><br>
+<br>
+Do print() lze vložit více hodnot oddělených čárkou.<br>
 
-Výstup:
+vek = 15<br>
 
-10
-3.14
+print("Věk:", vek)<br>
+<br>
+Výstup:<br>
 
-Python dokáže pracovat jak s celými čísly, tak s desetinnými čísly.
+Věk: 15<br>
+<br>
+Python automaticky mezi hodnoty vloží mezeru.<br>
+<br>
+<b>Praktické použití</b><br>
+<br>
+Funkce print() se používá téměř v každém programu. Například:<br>
+<br>
+zobrazování výsledků,<br>
+komunikace s uživatelem,<br>
+ladění programu,<br>
+kontrola proměnných,<br>
+vypisování chybových hlášek,<br>
+zobrazování menu programu.<br>
+<br>
+Příklad kalkulačky:<br>
 
-Výpis proměnných
+a = 5<br>
+b = 3<br>
 
-Velmi často se print() používá společně s proměnnými.
+print("Součet je:", a + b)<br>
+<br>
+Výstup:<br>
 
-jmeno = "Petr"
+Součet je: 8<br>
+<br>
+<b>Ladění programu<br>
+<br>
+Velmi důležitým využitím je také hledání chyb. Programátor často potřebuje zjistit, jaké hodnoty mají proměnné během běhu programu.<br>
+<br>
+x = 10<br>
+y = 5<br>
+<br>
+print(x)<br>
+print(y)<br>
+<br>
+Díky tomu lze snadno zjistit, kde vznikla chyba.<br>
+<br>
+<b>Formátování textu</b><br>
+<br>
+Modernější způsob zápisu používá takzvané f-stringy.<br>
+<br>
+jmeno = "Tomáš"<br>
+vek = 16<br>
 
-print(jmeno)
+print(f"Jmenuji se {jmeno} a je mi {vek} let.")<br>
+<br>
+Výstup:<br>
 
-Výstup:
-
-Petr
-
-Proměnná slouží jako „krabička“ pro ukládání dat. Funkce print() potom její obsah zobrazí.
-
-Spojování textu
-
-Pomocí print() lze spojovat texty dohromady.
-
-jmeno = "Anna"
-
-print("Ahoj " + jmeno)
-
-Výstup:
-
-Ahoj Anna
-
-Znak + zde slouží ke spojování textových řetězců.
-
-Více hodnot najednou
-
-Do print() lze vložit více hodnot oddělených čárkou.
-
-vek = 15
-
-print("Věk:", vek)
-
-Výstup:
-
-Věk: 15
-
-Python automaticky mezi hodnoty vloží mezeru.
-
-Praktické použití
-
-Funkce print() se používá téměř v každém programu. Například:
-
-zobrazování výsledků,
-komunikace s uživatelem,
-ladění programu,
-kontrola proměnných,
-vypisování chybových hlášek,
-zobrazování menu programu.
-
-Příklad kalkulačky:
-
-a = 5
-b = 3
-
-print("Součet je:", a + b)
-
-Výstup:
-
-Součet je: 8
-Ladění programu
-
-Velmi důležitým využitím je také hledání chyb. Programátor často potřebuje zjistit, jaké hodnoty mají proměnné během běhu programu.
-
-x = 10
-y = 5
-
-print(x)
-print(y)
-
-Díky tomu lze snadno zjistit, kde vznikla chyba.
-
-Formátování textu
-
-Modernější způsob zápisu používá takzvané f-stringy.
-
-jmeno = "Tomáš"
-vek = 16
-
-print(f"Jmenuji se {jmeno} a je mi {vek} let.")
-
-Výstup:
-
-Jmenuji se Tomáš a je mi 16 let.
-
-Tento způsob je přehlednější a dnes velmi doporučovaný.
-
-Nejčastější chyby začátečníků
-
-Začátečníci často:
-
-zapomenou závorky,
-nepoužijí uvozovky,
-spletou velká a malá písmena,
-špatně odsazují kód.
-
-Například tento zápis je špatně:
-
-Print("Ahoj")
-
-Python rozlišuje malá a velká písmena, takže správně musí být:
-
-)</p>
+Jmenuji se Tomáš a je mi 16 let.<br>
+<br>
+Tento způsob je přehlednější a dnes velmi doporučovaný.<br>
+<br>
+<b>Nejčastější chyby začátečníků</b><br>
+<br>
+Začátečníci často:<br>
+<br>
+zapomenou závorky,<br>
+nepoužijí uvozovky,<br>
+spletou velká a malá písmena,<br>
+špatně odsazují kód.<br>
+<br>
+Například tento zápis je špatně:<br>
+<br>
+Print("Ahoj")<br>
+<br>
+Python rozlišuje malá a velká písmena, takže správně musí být.</p>
 <a href="#top" id="nahoru"><span class="material-symbols-outlined">
 arrow_upward
 </span></a>
