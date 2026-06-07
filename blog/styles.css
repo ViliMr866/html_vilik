@@ -21,3 +21,26 @@ body {
   #66c9ce 40px
 );
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#nahoru {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  background-color: hsl(0, 81%, 58%);
+  color: white;
+
+  padding: 15px 20px;
+  border-radius: 10px;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nahoru:hover {
+  background-color: #c30707;
+}
