@@ -53,5 +53,18 @@ h2 {
 }
 
 p {
-    font-size: 18px
+  font-size: 18px
+}
+div {
+background-color: #eeeeee;
+
+padding: 20px;
+
+border-radius: 12px;
+
+font-family: monospace;
+
+white-space: pre-wrap;
+
+margin: 20px 0;
 }
