@@ -13,11 +13,9 @@ a:hover {
   background-color: #c30707;
 }
 body {
-    background: repeating-linear-gradient(
-    to bottom,
-    #ffffff 0px,
-    #ffffff 20px,
-    #4da6ff 20px,
-    #4da6ff 40px
-  );
+  background: repeating-linear-gradient(
+  to bottom,
+  #bfd3f0 20px,
+  #56effa 20px
+);
 }
