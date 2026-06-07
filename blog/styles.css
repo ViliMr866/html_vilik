@@ -14,7 +14,7 @@ a:hover {
 }
 body {
   background: repeating-linear-gradient(
-  to bottom,
+  45deg,
   #6beaf5 0px,
   #6beaf5 20px,
   #66c9ce 20px,
