@@ -47,3 +47,7 @@ html {
 #nahoru:hover {
   background-color: #c30707;
 }
+
+h2 {
+  text-decoration: underline;
+}
