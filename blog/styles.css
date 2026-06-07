@@ -13,6 +13,9 @@ a:hover {
   background-color: #c30707;
 }
 body {
+  height: 100vh;
+  margin: 0;
+
   background: repeating-linear-gradient(
   45deg,
   #6beaf5 0px,
